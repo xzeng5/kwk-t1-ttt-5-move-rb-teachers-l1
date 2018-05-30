@@ -8,6 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  integer = puts "#{user_input}".to_i
-  converted_input = integer - 1
+  user_input .to_i
 end
+
+input_to_index(3.4)
