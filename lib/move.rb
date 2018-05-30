@@ -11,4 +11,3 @@ def input_to_index(user_input)
   integer = puts "#{user_input}".to_i
   converted_input = integer - 1
 end
-
