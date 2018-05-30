@@ -10,3 +10,5 @@ end
 def input_to_index(user_input)
   converted_input = puts "#{user_input}".to_i
 end
+
+input_to_index(2.3)
